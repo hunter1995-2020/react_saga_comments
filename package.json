@@ -14,7 +14,7 @@
     "backend:generate": "yarn workspace backend generate",
     "backend:admin": "yarn workspace backend admin",
     "backend:clean": "yarn workspace backend clean",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn build && yarn backend:setup && yarn backend:start && yarn frontend:start"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn install && yarn backend:setup && yarn build"
   },
   "engines": {
     "yarn":"1.22.4"
