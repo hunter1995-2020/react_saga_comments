@@ -5,7 +5,7 @@
     "backend"
   ],
   "scripts": {
-    "start": "yarn frontend:start && yarn backend:start",
+    "start":"node sever.js",
     "build": "yarn workspace frontend build",
     "frontend:start": "yarn workspace frontend start",
     "backend:start": "yarn workspace backend start",

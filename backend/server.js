@@ -112,5 +112,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server ready at http://localhost:3001`);
+  console.log(`Server listening on port ${port}.`);
 });
